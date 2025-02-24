@@ -1,6 +1,4 @@
-Here’s a detailed `README.md` for the Helm chart image pull and push script:
 
----
 
 # Helm Chart Image Pull and Push Script
 
@@ -160,13 +158,3 @@ This script will:
 - **Invalid Image Reference**: If you see messages like "Skipping invalid image reference", it typically means the image name or format is incorrect. Ensure that all image references follow the standard Docker image format: `repository/name:tag`.
 
 - **Docker Errors**: Ensure that Docker is running and that you have sufficient privileges to pull and push images. You may need to run the script with elevated permissions if necessary.
-
----
-
-## License
-
-This script is provided as-is with no warranty. Feel free to modify it to suit your needs.
-
----
-
-Let me know if you need further modifications or if something is unclear!
